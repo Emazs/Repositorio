@@ -1,0 +1,14 @@
+.titleEducation {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.titleEducation img {
+    width: 40px;
+}
+
+.titleEducation h3 {
+    font-size: 30px;
+    margin: 0;
+}

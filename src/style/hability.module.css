@@ -1,0 +1,29 @@
+.hability {
+    display: flex;
+    width: fit-content;
+    margin-top: 1rem;
+    border-radius: 50px;
+    border: 0.5px solid rgb(75 85 99 / 1);
+    background-color: rgb(31 41 55 / 1);
+}
+
+.habilityImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.habilityImg img {
+    width: 18px;
+}
+
+.hability span {
+    font-size: 14px;
+}
+
+.habilityConten {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.40rem 0.8rem;
+}

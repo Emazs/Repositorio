@@ -1,0 +1,79 @@
+.containerHero{
+    width: 100%;
+    max-width: 56rem;
+}
+
+.hero {
+    max-width: 36rem;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.imageAvatar {
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.button {
+    display: flex;
+}
+
+.spin {
+    padding: 2px 2px;
+    border-radius: 50px;
+    font-size: 14px;
+    position: relative;
+    overflow: hidden;
+    z-index: -999;
+}
+
+.spinGreen {
+    background-image: conic-gradient(from 90deg at 50% 50%, #51e4b8, #21554e, #51e4b8);
+    animation: spin 2s linear infinite;
+    inset: -1000%;
+    position: absolute;
+    z-index: -10;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button p{
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(31 41 55 / 1);
+    padding-left: .75rem;
+    padding-right: .75rem;
+    margin: 0;
+    font-size: 14px !important;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-block: 0.5rem;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.links {
+    display: flex;
+    gap: 0.5rem;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

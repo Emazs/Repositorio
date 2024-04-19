@@ -1,0 +1,46 @@
+.proyect {
+    display: flex;
+    margin-top: 24px;
+}
+
+.contImgageProyect {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.imageProyect {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.detailsProyect {
+    width: 50%;
+    margin-left: 32px;
+}
+
+.titleProyect {
+    margin-top: 0.5px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FEF08A;
+}
+
+.detailsProyect p:nth-child(3) {
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 24px;
+    color: #9CA3AF;
+}
+
+.tecnologies {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.linksProyect {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    flex-wrap: wrap;
+}

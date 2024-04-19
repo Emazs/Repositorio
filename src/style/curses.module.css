@@ -1,0 +1,11 @@
+.curses {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.curse p,
+.curses p {
+    font-size: 16px;
+    margin: 0;
+}

@@ -1,0 +1,124 @@
+{
+    "newUserHability": [
+        {
+            "name": "Html",
+            "logo": "html"
+        },
+        {
+            "name": "Css",
+            "logo": "css"
+        },
+        {
+            "name": "JavaScript",
+            "logo": "javaScript"
+        },
+        {
+            "name": "React",
+            "logo": "react"
+        },
+        {
+            "name": "Git",
+            "logo": "git"
+        },
+        {
+            "name": "Tailwind",
+            "logo": "tailwind"
+        },
+        {
+            "name": "Github",
+            "logo": "github"
+        }
+    ],
+    "restCountry": {
+        "title": "Rest country API",
+        "description": "Para este proyecto, utilicé una API pública para obtener la lista de países y mostrarla. Teniendo en cuenta que estos países podrían filtrarse mediante un buscador y además considerando su región.",
+        "imgProyect": "https://raw.githubusercontent.com/Emazs/rest-countries/main/src/assets/design/desktop-preview.jpg",
+        "nameTecnologi": [
+            {
+                "name": "Css module",
+                "logo": "css",
+                "color": "cian"
+            },
+            {
+                "name": "React",
+                "logo": "react",
+                "color": "cian"
+            }
+        ],
+        "infoLink": [
+            {
+                "name": "Github",
+                "logo": "github",
+                "url": "https://github.com/Emazs/rest-countries"
+            },
+            {
+                "name": "Preview",
+                "logo": "preview",
+                "url": "https://rest-countries-two-umber.vercel.app//"
+            }
+        ]
+    },
+    "ecommerceReact": {
+        "title": "E-commerce product page",
+        "description": "Este es uno de los primeros proyectos en los que utilizo React, sumado a que también aprendí a trabajar con estados globales usando useContext.",
+        "imgProyect": "https://github.com/Emazs/ecommerce-react/blob/master/design/desktop-preview.jpg?raw=true",
+        "nameTecnologi": [
+            {
+                "name": "Css module",
+                "logo": "css",
+                "color": "cian"
+            },
+            {
+                "name": "React",
+                "logo": "react",
+                "color": "cian"
+            }
+        ],
+        "infoLink": [
+            {
+                "name": "Github",
+                "logo": "github",
+                "url": "https://github.com/Emazs/ecommerce-react"
+            },
+            {
+                "name": "Preview",
+                "logo": "preview",
+                "url": "https://emazs.github.io/ecommerce-react/"
+            }
+        ]
+    },
+    "sectionDropdown": {
+        "title": "Intro section with dropdown navigation",
+        "description": "Para este proyecto solo utilice html, css y js para algunas funcionalidades como el menu desplegable. Este fue de los primeros proyectos que realice agregando diseño responsivo.",
+        "imgProyect": "https://github.com/Emazs/introSectionWithDropdownNavigationMain/blob/master/design/desktop-preview.jpg?raw=true",
+        "nameTecnologi": [
+            {
+                "name": "HTML",
+                "logo": "html",
+                "color": "red"
+            },
+            {
+                "name": "Css",
+                "logo": "css",
+                "color": "cian"
+            },
+            {
+                "name": "JavaScript",
+                "logo": "javaScript",
+                "color": "yellow"
+            }
+        ],
+        "infoLink": [
+            {
+                "name": "Github",
+                "logo": "github",
+                "url": "https://github.com/Emazs/introSectionWithDropdownNavigationMain"
+            },
+            {
+                "name": "Preview",
+                "logo": "preview",
+                "url": "https://emazs.github.io/introSectionWithDropdownNavigationMain/"
+            }
+        ]
+    }
+}
