@@ -3,12 +3,12 @@ import { TecnologiLogo } from './TecnologiLogo'
 import { LinkLogo } from './LinkLogo'
 import style from '../style/proyect.module.css'
 
-export const Proyect = ({ restCountry }) => {
-  const title = restCountry && restCountry.title
-  const description = restCountry && restCountry.description 
-  const nameTecnologi = restCountry && restCountry.nameTecnologi 
-  const infoLink = restCountry && restCountry.infoLink 
-  const imgProyect = restCountry && restCountry.imgProyect 
+export const Proyect = ({ project }) => {
+  const title = project && project.title
+  const description = project && project.description
+  const nameTecnologi = project && project.nameTecnologi
+  const infoLink = project && project.infoLink
+  const imgProyect = project && project.imgProyect
 
   return (
     <section className={style.proyect}>
@@ -23,7 +23,7 @@ export const Proyect = ({ restCountry }) => {
 
         <section className={style.tecnologies}>
           {
-            restCountry && nameTecnologi.map((elem) => {
+            project && nameTecnologi.map((elem) => {
               return (
                 <TecnologiLogo key={elem.name} name={elem.name} logo={elem.logo} color={elem.color} />
               )
@@ -35,7 +35,7 @@ export const Proyect = ({ restCountry }) => {
 
         <section className={style.linksProyect}>
           {
-            restCountry && infoLink.map(elem => {
+            project && infoLink.map(elem => {
               return (
                 <LinkLogo key={elem.name} name={elem.name} logo={elem.logo} url={elem.url} />
               )
