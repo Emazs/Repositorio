@@ -12,7 +12,7 @@ export const Hero = ({ contacts }) => {
             <section className={style.button}>
               <span className={style.spin}>
                 <span className={style.spinGreen} />
-                <p>Disponible para trabajar</p>
+                <p>Abierto a nuevas oportunidades</p>
               </span>
             </section>
           </a>
