@@ -120,5 +120,39 @@
                 "url": "https://emazs.github.io/introSectionWithDropdownNavigationMain/"
             }
         ]
+    },
+    "webFood": {
+        "title": "FoodPOS: Sistema de Selección de Comida para Establecimientos",
+        "description": "Este proyecto es una web diseñada para establecimientos, permitiendo la selección de comida, cantidades y reflejando los precios en tiempo real. También incluye una sección de métodos de pago, aunque estos no están habilitados, siendo únicamente una representación visual.",
+        "imgProyect": "https://raw.githubusercontent.com/Emazs/frontend-food-pos/refs/heads/main/src/assets/disign/home_desktop.png?token=GHSAT0AAAAAAC3RPKTHTS3XERQQ6LWQYYU2Z54UHYQ",
+        "nameTecnologi": [
+            {
+                "name": "React",
+                "logo": "react",
+                "color": "cian"
+            },
+            {
+                "name": "Tailwind",
+                "logo": "tailwind",
+                "color": "cian"
+            },
+            {
+                "name": "Zod",
+                "logo": "javaScript",
+                "color": "cian"
+            }
+        ],
+        "infoLink": [
+            {
+                "name": "Github",
+                "logo": "github",
+                "url": "https://github.com/Emazs/frontend-food-pos/"
+            },
+            {
+                "name": "Preview",
+                "logo": "preview",
+                "url": "https://frontend-food-pos.vercel.app/login"
+            }
+        ]
     }
 }

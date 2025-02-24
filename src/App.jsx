@@ -9,7 +9,7 @@ import { UseFetch } from './components/UseFetch.jsx'
 
 function App () {
   const data = UseFetch('../src/data/data.json')
-  const { newUserHability, restCountry, ecommerceReact, sectionDropdown } = data
+  const { newUserHability, restCountry, ecommerceReact, sectionDropdown, webFood } = data
 
   return (
     <>
@@ -33,6 +33,7 @@ function App () {
 
           <section id='proyectos' className='proyects'>
             <Titles logo='code' title='Proyectos' />
+            <Proyect restCountry={webFood} />
             <Proyect restCountry={restCountry} />
             <Proyect restCountry={ecommerceReact} />
             <Proyect restCountry={sectionDropdown} />
