@@ -29,6 +29,7 @@
             "logo": "github"
         }
     ],
+<<<<<<< HEAD
     "restCountry": {
         "title": "Rest country API",
         "description": "Para este proyecto, utilicé una API pública para obtener la lista de países y mostrarla. Teniendo en cuenta que estos países podrían filtrarse mediante un buscador y además considerando su región.",
@@ -155,4 +156,150 @@
             }
         ]
     }
+=======
+    "projects": [
+        {
+            "title": "Rest country API",
+            "description": "Para este proyecto, utilicé una API pública para obtener la lista de países y mostrarla. Teniendo en cuenta que estos países podrían filtrarse mediante un buscador y además considerando su región.",
+            "imgProyect": "https://raw.githubusercontent.com/Emazs/rest-countries/main/src/assets/design/desktop-preview.jpg",
+            "nameTecnologi": [
+                {
+                    "name": "Css module",
+                    "logo": "css",
+                    "color": "cian"
+                },
+                {
+                    "name": "React",
+                    "logo": "react",
+                    "color": "cian"
+                }
+            ],
+            "infoLink": [
+                {
+                    "name": "Github",
+                    "logo": "github",
+                    "url": "https://github.com/Emazs/rest-countries"
+                },
+                {
+                    "name": "Preview",
+                    "logo": "preview",
+                    "url": "https://rest-countries-two-umber.vercel.app//"
+                }
+            ]
+        },
+        {
+            "title": "E-commerce product page",
+            "description": "Este es uno de los primeros proyectos en los que utilizo React, sumado a que también aprendí a trabajar con estados globales usando useContext.",
+            "imgProyect": "https://github.com/Emazs/ecommerce-react/blob/master/design/desktop-preview.jpg?raw=true",
+            "nameTecnologi": [
+                {
+                    "name": "Css module",
+                    "logo": "css",
+                    "color": "cian"
+                },
+                {
+                    "name": "React",
+                    "logo": "react",
+                    "color": "cian"
+                }
+            ],
+            "infoLink": [
+                {
+                    "name": "Github",
+                    "logo": "github",
+                    "url": "https://github.com/Emazs/ecommerce-react"
+                },
+                {
+                    "name": "Preview",
+                    "logo": "preview",
+                    "url": "https://emazs.github.io/ecommerce-react/"
+                }
+            ]
+        },
+        {
+            "title": "Intro section with dropdown navigation",
+            "description": "Para este proyecto solo utilice html, css y js para algunas funcionalidades como el menu desplegable. Este fue de los primeros proyectos que realice agregando diseño responsivo.",
+            "imgProyect": "https://github.com/Emazs/introSectionWithDropdownNavigationMain/blob/master/design/desktop-preview.jpg?raw=true",
+            "nameTecnologi": [
+                {
+                    "name": "HTML",
+                    "logo": "html",
+                    "color": "red"
+                },
+                {
+                    "name": "Css",
+                    "logo": "css",
+                    "color": "cian"
+                },
+                {
+                    "name": "JavaScript",
+                    "logo": "javaScript",
+                    "color": "yellow"
+                }
+            ],
+            "infoLink": [
+                {
+                    "name": "Github",
+                    "logo": "github",
+                    "url": "https://github.com/Emazs/introSectionWithDropdownNavigationMain"
+                },
+                {
+                    "name": "Preview",
+                    "logo": "preview",
+                    "url": "https://emazs.github.io/introSectionWithDropdownNavigationMain/"
+                }
+            ]
+        }
+    ],
+    "courses": [
+        {
+            "id": 1,
+            "title": "Alura latam",
+            "name": "DESARROLLO PERSONAL G4 - ONE",
+            "date": "07-12-22"
+        },
+        {
+            "id": 2,
+            "title": "Alura latam",
+            "name": "Formación Principiante en Programación G4 - ONE",
+            "date": "03-01-23"
+        },
+        {
+            "id": 3,
+            "title": "Alura latam",
+            "name": "HTML5 Y CSS3 PARTE 4: AVANZANDO EN CSS",
+            "date": "26-12-22"
+        },
+        {
+            "id": 4,
+            "title": "Alura latam",
+            "name": "GIT Y GITHUB: CONTROLE Y COMPARTA SU CÓDIGO",
+            "date": "14-04-23"
+        },
+        {
+            "id": 5,
+            "title": "Udemy",
+            "name": "React JS Desde Cero",
+            "date": "14-04-23"
+        }
+    ],
+    "contacts": [
+        {
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/in/elias-m-s/"
+        },
+        {
+            "name": "github",
+            "url": "https://github.com/Emazs"
+        },
+        {
+            "name": "code",
+            "url": "https://www.codewars.com/users/Emazs"
+        },
+        {
+            "name": "mentor",
+            "url": "https://www.frontendmentor.io/"
+        }
+    ]
+>>>>>>> 888947fa710caa40e1f90de8d9f90da640ad72ab
 }
